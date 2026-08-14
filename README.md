@@ -87,5 +87,5 @@ QuizBuddyWebApp/
 
 QuizBuddyWebApp was developed as a web-based quiz and assessment system that provides separate functionality for teachers and learners, including test creation, quiz participation, automated scoring, and learner performance tracking.
 
-###Author###
+### Author 
 Rebaona Radebe
