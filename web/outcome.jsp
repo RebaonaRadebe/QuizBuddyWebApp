@@ -9,6 +9,8 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        <link rel="stylesheet" href="Styles/myStyles.css"> 
         <title> Question Outcome Page</title>
     </head>
     <body>

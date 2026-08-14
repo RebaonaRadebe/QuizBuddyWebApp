@@ -55,7 +55,7 @@ public class AnswerServlet extends HttpServlet {
                                 "D. " + q.getOptionD() + "\n" + 
                                 "Learner Answer: " + answer + "\n" + 
                                 "Correct Answer: " + q.getCorrectAnswer() + "\n" + 
-                                "Result: " + (correct ? "Correct" : "Wrong" ) + "\n";
+                                "Result: " + (correct ? "Correct" : "Wrong" ) + "\n\n";
          
          //add to outcome 
          outcome += currentOutcome;

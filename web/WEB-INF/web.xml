@@ -24,6 +24,14 @@
         <servlet-name>LogoutServlet</servlet-name>
         <servlet-class>za.ac.tut.web.LogoutServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>PassedLearnersServlet</servlet-name>
+        <servlet-class>za.ac.tut.web.PassedLearnersServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>TopLearnerServlet</servlet-name>
+        <servlet-class>za.ac.tut.web.TopLearnerServlet</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>SetTestServlet</servlet-name>
         <url-pattern>/SetTestServlet.do</url-pattern>
@@ -47,6 +55,14 @@
     <servlet-mapping>
         <servlet-name>LogoutServlet</servlet-name>
         <url-pattern>/LogoutServlet.do</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>PassedLearnersServlet</servlet-name>
+        <url-pattern>/PassedLearnersServlet.do</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>TopLearnerServlet</servlet-name>
+        <url-pattern>/TopLearnerServlet.do</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

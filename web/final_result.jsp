@@ -9,6 +9,8 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        <link rel="stylesheet" href="Styles/myStyles.css"> 
          <title>Final Result Display Page</title>
     </head>
     <body>
@@ -56,7 +58,7 @@
 
 
        <ul>
-                <li><a href="index.html">Home</a></li>
+         
                 <li><a href="menu.html">Menu</a></li>
                 <li><a href="take_test.jsp">Take another test</a></li>
                 <li><a href="LogoutServlet.do">Logout</a></li>

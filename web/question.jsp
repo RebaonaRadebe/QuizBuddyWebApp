@@ -11,6 +11,8 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        <link rel="stylesheet" href="Styles/myStyles.css">  
         <title>Question Page</title>
     </head>
     <body>
@@ -21,6 +23,8 @@
             
             Question q = questions.get(index);
         %>
+        
+        <p>Total questions: <%= questions.size() %></p>
         
         <p>Question <%= index + 1 %></p>
         

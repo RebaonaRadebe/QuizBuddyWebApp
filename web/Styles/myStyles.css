@@ -1,0 +1,150 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f3ff;
+    margin: 0;
+    padding: 40px;
+    color: #2d2340;
+}
+
+h1 {
+    color: #5b3f8c;
+    margin-bottom: 25px;
+}
+
+h2 {
+    color: #6d4aa2;
+}
+
+h3 {
+    color: #7657a8;
+}
+
+table {
+    border-collapse: collapse;
+    width: 70%;
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 3px 10px rgba(91, 63, 140, 0.12);
+}
+
+th {
+    background-color: #6d4aa2 !important;
+    color: #ffffff !important;
+    padding: 14px;
+    text-align: left;
+    font-weight: bold;
+}
+
+td {
+    border: 1px solid #e6def2;
+    padding: 14px;
+}
+
+tr:nth-child(even) {
+    background-color: #faf8ff;
+}
+
+tr:hover {
+    background-color: #f0e9ff;
+}
+
+
+
+a {
+    color: #6d4aa2;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #4d3275;
+    text-decoration: underline;
+}
+
+
+input[type="submit"],
+button {
+    background-color: #6d4aa2;
+    color: white;
+    border: none;
+    padding: 11px 22px;
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+input[type="submit"]:hover,
+button:hover {
+    background-color: #563783;
+}
+
+
+
+input[type="text"],
+input[type="number"],
+input[type="password"] {
+    padding: 9px;
+    border: 1px solid #cbbbe3;
+    border-radius: 5px;
+    background-color: white;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+input[type="password"]:focus {
+    outline: none;
+    border-color: #6d4aa2;
+}
+
+
+
+
+.question {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 20px;
+    width: 70%;
+    border: 1px solid #e1d5f0;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(91, 63, 140, 0.10);
+}
+
+
+
+.results {
+    background-color: white;
+    padding: 25px;
+    width: 70%;
+    border: 1px solid #e1d5f0;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(91, 63, 140, 0.10);
+}
+
+
+/* =========================
+   QUESTION OUTCOMES
+   ========================= */
+
+.outcomes {
+    background-color: white;
+    padding: 20px;
+    width: 70%;
+    border: 1px solid #e1d5f0;
+    border-radius: 8px;
+    line-height: 1.7;
+    box-shadow: 0 3px 10px rgba(91, 63, 140, 0.10);
+}
+
+
+
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
